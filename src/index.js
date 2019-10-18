@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
-import ReactDOM from 'react-dom';
+import React, { useState } from "react";
+import ReactDOM from "react-dom";
 
-import './styles.css';
+import "./styles.css";
 
-import { Line } from 'react-chartjs-2';
+import { Line } from "react-chartjs-2";
 
 const rand = () => Math.round((Math.random() - 0.5) * 4);
 const rand100 = () => Math.round(Math.random() * 100);
@@ -42,44 +42,44 @@ function App() {
     labels: points,
     datasets: [
       {
-        label: 'My First dataset',
+        label: "My First dataset peter this is awesome",
         fill: false,
         lineTension: 0.1,
-        backgroundColor: 'rgba(75,192,192,0.4)',
-        borderColor: 'rgba(75,192,192,1)',
-        borderCapStyle: 'butt',
+        backgroundColor: "rgba(75,192,192,0.4)",
+        borderColor: "rgba(75,192,192,1)",
+        borderCapStyle: "butt",
         borderDash: [],
         steppedLine: true,
         borderDashOffset: 0.0,
-        borderJoinStyle: 'miter',
-        pointBorderColor: 'rgba(75,192,192,1)',
-        pointBackgroundColor: '#fff',
+        borderJoinStyle: "miter",
+        pointBorderColor: "rgba(75,192,192,1)",
+        pointBackgroundColor: "#fff",
         pointBorderWidth: 1,
         pointHoverRadius: 5,
-        pointHoverBackgroundColor: 'rgba(75,192,192,1)',
-        pointHoverBorderColor: 'rgba(220,220,220,1)',
+        pointHoverBackgroundColor: "rgba(75,192,192,1)",
+        pointHoverBorderColor: "rgba(220,220,220,1)",
         pointHoverBorderWidth: 2,
         pointRadius: 1,
         pointHitRadius: 10,
         data: points
       },
       {
-        label: 'My First dataset 2',
+        label: "My First dataset 2",
         fill: false,
         lineTension: 0.1,
-        backgroundColor: 'rgba(192,75,192,0.4)',
-        borderColor: 'rgba(192,75,192,1)',
-        borderCapStyle: 'butt',
+        backgroundColor: "rgba(192,75,192,0.4)",
+        borderColor: "rgba(192,75,192,1)",
+        borderCapStyle: "butt",
         borderDash: [],
         steppedLine: true,
         borderDashOffset: 0.0,
-        borderJoinStyle: 'miter',
-        pointBorderColor: 'rgba(192,75,192,1)',
-        pointBackgroundColor: '#fff',
+        borderJoinStyle: "miter",
+        pointBorderColor: "rgba(192,75,192,1)",
+        pointBackgroundColor: "#fff",
         pointBorderWidth: 1,
         pointHoverRadius: 5,
-        pointHoverBackgroundColor: 'rgba(192,75,192,1)',
-        pointHoverBorderColor: 'rgba(220,220,220,1)',
+        pointHoverBackgroundColor: "rgba(192,75,192,1)",
+        pointHoverBorderColor: "rgba(220,220,220,1)",
         pointHoverBorderWidth: 2,
         pointRadius: 1,
         pointHitRadius: 10,
@@ -110,5 +110,5 @@ function App() {
   );
 }
 
-const rootElement = document.getElementById('root');
+const rootElement = document.getElementById("root");
 ReactDOM.render(<App />, rootElement);
